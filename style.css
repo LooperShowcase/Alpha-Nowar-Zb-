@@ -1,0 +1,36 @@
+body {background-color:#ffffff;}
+body {color: #000000;}
+h1{font-size:600%;}
+a{font-size: 300%;}
+a{color: black;}
+body{font-family: "Playwrite NZ", cursive;}
+p{font-size: 200%;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #5e585830;
+  }
+  
+  li a.active {
+    color: rgb(255, 254, 254);
+    background-color: #000000;
+  }
